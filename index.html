@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopnik Fighter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <section id="enemy_img">
+      <img id="nerd_img" src="img/nerd_ordinary.png" alt="face of nerd in glasses">
+      <img id="nerd_img" src="img/gopnik_ordinary.png" alt="regular gopnik">
+    </section>
+    <section id="health-levels">
+      <h2>GOPNIK HEALTH</h2>
+      <progress id="gopnik-health" max="100" value="100">100%</progress>
+      <h2>YOUR HEALTH<span id="bonus-life">1</span></h2>
+      <progress id="player-health" max="100" value="100">100%</progress>
+    </section>
+    <section id="controls">
+      <button id="attack-btn">HIT THIS BIT*!</button>
+      <button id="strong-attack-btn">HIT HIM HARD!</button>
+      <button id="heal-btn">LICK UP YOUR WOUNDS SKINNY!</button>
+    </section>
+  </body>
+
+  <script src="scripts/mainFunc.js"></script>
+  <script src="scripts/inApp.js"></script>
+</html>
